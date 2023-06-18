@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# From IDE and CMake
+.idea/
+.cmake-build-debug-32-bit/
