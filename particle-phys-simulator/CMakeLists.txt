@@ -8,7 +8,7 @@ project(particle_phys_simulator)
 set(CMAKE_CXX_STANDARD 17)
 
 # set SFML_DIR to the ..lib/cmake/SFML directory of the SFML library
-set(SFML_DIR "C:/Users/mzaya/Desktop/C++ Projects/C++ Libraries/SFML-2.5.1/lib/cmake/SFML")
+set(SFML_DIR ".../SFML-2.5.1/lib/cmake/SFML") # will not build, add directory
 
 # find the SFML modules used by the simulator
 find_package(SFML 2.5 COMPONENTS graphics window system REQUIRED)
