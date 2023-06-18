@@ -1,9 +1,0 @@
-test_1
-
-dimensions  detector  resolver
-60 x 80     base      base
-
-particles
-id  radius  xpos  ypos  xvel  yvel
-1   5       10    50    10    0
-2   5       50    30    -10   0
