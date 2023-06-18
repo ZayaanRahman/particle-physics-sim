@@ -1,3 +1,0 @@
-C:/Users/mzaya/Desktop/C++ Projects/particle-physics-sim/cmake-build-debug-32-bit/CMakeFiles/particle-physics-sim.dir
-C:/Users/mzaya/Desktop/C++ Projects/particle-physics-sim/cmake-build-debug-32-bit/CMakeFiles/edit_cache.dir
-C:/Users/mzaya/Desktop/C++ Projects/particle-physics-sim/cmake-build-debug-32-bit/CMakeFiles/rebuild_cache.dir
