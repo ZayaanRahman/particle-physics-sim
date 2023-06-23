@@ -1,0 +1,11 @@
+input_template
+
+dimensions  detector  resolver
+600 x 800   base      base
+
+particles
+id  radius  xpos  ypos  xvel  yvel
+1   50      300   400   0     0
+2   30      20    20    50    50
+3   10      580   780   -30   -40
+4   50      160   260   100   -100
