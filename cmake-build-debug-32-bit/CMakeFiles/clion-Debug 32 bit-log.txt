@@ -1,5 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.3.1/bin/ninja/win/ninja.exe" "-DCMAKE_CXX_COMPILER=C:/mingw32 for sfml/mingw32/bin/g++.exe" -G Ninja -S "C:\Users\mzaya\Desktop\C++ Projects\particle-physics-sim" -B "C:\Users\mzaya\Desktop\C++ Projects\particle-physics-sim\cmake-build-debug-32-bit"
--- Found SFML 2.5.1 in C:/Users/mzaya/Desktop/C++ Projects/C++ Libraries/SFML-2.5.1/lib/cmake/SFML
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/mzaya/Desktop/C++ Projects/particle-physics-sim/cmake-build-debug-32-bit
