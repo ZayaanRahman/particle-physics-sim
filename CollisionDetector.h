@@ -9,6 +9,7 @@
 #include "Particle.h"
 
 #include <vector>
+#include <utility>
 
 class CollisionDetector {
 
@@ -28,7 +29,8 @@ class CollisionDetector {
     CollisionDetector(std::vector<Particle> particles, size_t width, size_t height);
 
     // detect particle-particle collisions and particle-boundary collisions
-
+    std::pair<Particle, Particle> DetectParticleCol();
+    std::pair<Particle, size_t> DetectBoundaryCol(); // a number is used to reference each boundary
 
 
 };
