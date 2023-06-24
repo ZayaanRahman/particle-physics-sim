@@ -33,3 +33,4 @@
 
 # From IDE and CMake
 /cmake-build-debug-32-bit/
+/.idea/
