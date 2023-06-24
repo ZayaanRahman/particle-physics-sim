@@ -28,9 +28,12 @@ class CollisionDetector {
     CollisionDetector();
     CollisionDetector(std::vector<Particle> particles, size_t width, size_t height);
 
-    // detect particle-particle collisions and particle-boundary collisions
-    std::pair<Particle, Particle> DetectParticleCol();
-    std::pair<Particle, size_t> DetectBoundaryCol(); // a number is used to reference each boundary
+    // detect particle-particle collisions, returning a vector of pairs of particles
+    std::vector<std::pair<Particle, Particle>> DetectParticleCol();
+
+    // detect particle-boundary collisions, returning a vector of pairs of particles and size_ts
+    // a size_t number is used to reference each boundary
+    std::vector<std::pair<Particle, size_t>> DetectBoundaryCol();
 
 
 };
