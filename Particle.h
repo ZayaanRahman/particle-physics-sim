@@ -6,14 +6,9 @@
 #ifndef PARTICLE_PHYS_SIMULATOR_PARTICLE_H
 #define PARTICLE_PHYS_SIMULATOR_PARTICLE_H
 
-#include <cstddef>
-
 class Particle {
 
   public:
-
-    // unique identifier, useful if particle needs to be hashed or for particle tracking
-    size_t id;
 
     double radius;
 
@@ -32,6 +27,8 @@ class Particle {
     // default constructor
     Particle();
 };
+
+typedef Particle* ParticlePtr;
 
 
 #endif //PARTICLE_PHYS_SIMULATOR_PARTICLE_H

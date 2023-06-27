@@ -19,20 +19,19 @@ class CollisionResolver {
     size_t width;
     size_t height;
 
-    // Reference to vector particles in engine
+    // reference to vector particles in engine
     std::vector<Particle>& particlesRef;
 
   public:
 
-    // default constructor and constructor using engine settings
-    CollisionResolver();
+    // constructor using engine settings
     CollisionResolver(std::vector<Particle> particles, size_t width, size_t height);
 
     // resolve particle-particle collisions
-    void resolveParticleCol(std::vector<std::pair<Particle, Particle>> particleCollisions);
+    void resolveParticleCol(std::vector<std::pair<size_t, size_t>> particleCollisions);
 
     // resolve particle-boundary collisions
-    void resolveBoundaryCol(std::vector<std::pair<Particle, size_t>> boundaryCollisions);
+    void resolveBoundaryCol(std::vector<std::pair<size_t, size_t>> boundaryCollisions);
 
 
 };

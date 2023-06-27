@@ -6,4 +6,4 @@
 #include "Particle.h"
 
 // default constructor
-Particle::Particle() : id(0), radius(0), xpos(0), ypos(0), xvel(0), yvel(0), xacc(0), yacc(0) {}
+Particle::Particle(): radius(0), xpos(0), ypos(0), xvel(0), yvel(0), xacc(0), yacc(0) {}
